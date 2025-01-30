@@ -1,0 +1,31 @@
+$radius: 10px;
+.card {
+  border: 2px solid #0b5ed7;
+  border-radius: $radius;
+  text-align: center;
+  padding: 0px !important;
+  margin: 20px;
+  
+  
+}
+.content {
+  padding: 5px;
+}
+.img {
+  border-radius: $radius $radius 0 0;
+}
+.badge {
+ 
+  font-size: 17px;
+}
+.row.results {
+  text-align: center !important;
+  display: block;
+  font-size: larger;
+}
+
+.row.results.text-center {
+  display: block;
+  font-size: larger;
+  margin-right: 5% !important;
+}
