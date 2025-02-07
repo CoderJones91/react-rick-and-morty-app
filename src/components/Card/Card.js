@@ -57,7 +57,7 @@ const Card = ({ results }) => {
 })()}
             <img className={`${styles.img} img-fluid`} src={image} alt="" />
             <div className={`${styles.content}`}>
-              <div className="fs-5 fw-bold mb-4">{name}</div>
+              <div className="fs-5 fw-bold mb-3">{name}</div>
               <div className="">
                 <div className="fs-6 fw-normal">Last Location</div>
                 <div className="fs-5">{location.name}</div>

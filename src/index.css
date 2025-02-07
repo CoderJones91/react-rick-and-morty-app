@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
+@font-face {
+  font-family: 'rick-morty';
+  src: url('./fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff') format('woff');
+
+}
+
+
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -7,7 +15,7 @@ body {
 }
 
 .ubuntu {
-  font-family: "Ubuntu" !important;
+  font-family: 'Get Schwifty' !important;
 }
 
 code {
@@ -23,4 +31,13 @@ code {
   dispay: block;
   font-size: larger;
   argin-right: 25%;
+}
+h1 {
+  font-family: 'rick-morty';
+  font-size: 5em;
+  color: #08BAE3;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+
+  
 }
