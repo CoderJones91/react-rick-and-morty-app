@@ -56,8 +56,8 @@ const Home = () => {
 
   return (
     <div className="App">
-      <h1 className="text-center mb-5 mt-4">Rick and Morty Wiki</h1>
-    
+      <h1 className="text-center mb-5 mt-4"><span>&#128760;</span> Rick and Morty Wiki<span> &#128640;</span></h1>
+      
       <Search setPageNumber={setPageNumber} setSearch={setSearch}></Search>
       <div className="container">
         <div className="row">

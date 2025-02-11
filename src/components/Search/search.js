@@ -18,12 +18,6 @@ const Search = ({ setSearch, setPageNumber }) => {
         }} 
         placeholder="Search for characters"
         />
-      <button
-        onClick={searchBtn}
-        className={`${styles.btn} btn btn-primary fs-5`}
-      >
-        Who Ya Lookin' For?
-      </button>
     </form>
   );
 };

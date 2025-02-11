@@ -22,9 +22,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: green;
+    border-color: #08BAE3;
+}
+.active>.page-link, .page-link.active {
+  background-color: green;
+}
 .pagination a {
-  color: inherit;
+  /* color: inherit; */
   text-decoration: none;
 }
 .row.results.text-center {
@@ -34,7 +45,7 @@ code {
 }
 h1 {
   font-family: 'rick-morty';
-  font-size: 5em;
+  font-size: 4.5em;
   color: #08BAE3;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
