@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-rick-and-morty-app/static/css/main.0ce57647.css",
-    "main.js": "/react-rick-and-morty-app/static/js/main.a12050ae.js",
+    "main.js": "/react-rick-and-morty-app/static/js/main.f1bf3613.js",
     "static/media/dimslowspacevid.mp4": "/react-rick-and-morty-app/static/media/dimslowspacevid.3451aa1bb664db365a99.mp4",
     "static/media/rm-cool1.jpeg": "/react-rick-and-morty-app/static/media/rm-cool1.2741fb311c0b6c0ffada.jpeg",
     "static/media/rm-portal1.jpg": "/react-rick-and-morty-app/static/media/rm-portal1.e912158a8c8c39cb862b.jpg",
     "static/media/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff": "/react-rick-and-morty-app/static/media/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.1790d16f68121285967e.woff",
     "index.html": "/react-rick-and-morty-app/index.html",
     "main.0ce57647.css.map": "/react-rick-and-morty-app/static/css/main.0ce57647.css.map",
-    "main.a12050ae.js.map": "/react-rick-and-morty-app/static/js/main.a12050ae.js.map"
+    "main.f1bf3613.js.map": "/react-rick-and-morty-app/static/js/main.f1bf3613.js.map"
   },
   "entrypoints": [
     "static/css/main.0ce57647.css",
-    "static/js/main.a12050ae.js"
+    "static/js/main.f1bf3613.js"
   ]
 }
