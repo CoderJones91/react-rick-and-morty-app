@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-rick-and-morty-app/static/css/main.1f8c18c0.css",
+    "main.js": "/react-rick-and-morty-app/static/js/main.973599a5.js",
+    "static/media/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff": "/react-rick-and-morty-app/static/media/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.1790d16f68121285967e.woff",
+    "index.html": "/react-rick-and-morty-app/index.html",
+    "main.1f8c18c0.css.map": "/react-rick-and-morty-app/static/css/main.1f8c18c0.css.map",
+    "main.973599a5.js.map": "/react-rick-and-morty-app/static/js/main.973599a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f8c18c0.css",
+    "static/js/main.973599a5.js"
+  ]
+}
