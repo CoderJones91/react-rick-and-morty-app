@@ -6,42 +6,32 @@ import Filters from "./components/Filter/filter";
 import Pagination from "./components/Pagination/pagination";
 import Search from "./components/Search/search";
 import Navbar from "./components/NavBar/navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Episodes from "./components/Pages/Episodes";
 import Location from "./components/Pages/Location";
 import CardDetails from "./components/Card/cardDetails";
-import Main from "./components/Main"
-
-
+import Main from "./components/Main";
 
 function App() {
   return (
-   
-    <Router basename="/react-rick-and-morty-app">
+    <Router>
       <div className="App">
         <Navbar />
         <Main />
       </div>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/:id" element={<CardDetails></CardDetails>}></Route>
-        <Route path="/episodes" element={<Episodes />}></Route>
-        <Route 
-          path="/episodes/:id"
-          element={<CardDetails></CardDetails>}
-        ></Route>
-        <Route path="/location" element={<Location></Location>}></Route>
-
-        <Route
-          path="/location/:id"
-          element={<CardDetails></CardDetails>}
-        ></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/:id" element={<CardDetails />} />
+        <Route path="/episodes" element={<Episodes />} />
+        <Route path="/episodes/:id" element={<CardDetails />} />
+        <Route path="/location" element={<Location />} />
+        <Route path="/location/:id" element={<CardDetails />} />
       </Routes>
     </Router>
   );
 }
+
 const Home = () => {
-  <App />
   let [pageNumber, setPageNumber] = useState(1);
   let [search, setSearch] = useState("");
   let [status, setStatus] = useState("");
@@ -59,47 +49,31 @@ const Home = () => {
       updateFetchedData(data);
     })();
   }, [api]);
-<Main />
+
   return (
-    
     <div className="App">
-  
-      <Search setPageNumber={setPageNumber} setSearch={setSearch}></Search>
+      <Search setPageNumber={setPageNumber} setSearch={setSearch} />
       <div className="container">
         <div className="row">
-          <Filters
-            setSpecies={setSpecies}
-            setGender={setGender}
-            setStatus={setStatus}
-            setPageNumber={setPageNumber}
-          ></Filters>
+          <Filters setSpecies={setSpecies} setGender={setGender} setStatus={setStatus} setPageNumber={setPageNumber} />
           <div className="col-lg-8 col-12">
             <div className="row" id="justifyCard">
-             
-              <Cards page="/" results={results}></Cards>
-
+              <Cards page="/" results={results} />
             </div>
           </div>
         </div>
       </div>
-      <Pagination
-        info={info}
-        pageNumber={pageNumber}
-        setPageNumber={setPageNumber}
-      ></Pagination>
+      <Pagination info={info} pageNumber={pageNumber} setPageNumber={setPageNumber} />
     </div>
-    
   );
 };
 
 window.addEventListener('load', function() {
-  document.querySelectorAll('.nav-link').forEach
-(link => {
-  if (link.href === window.location.href) {
-    link.setAttribute('aria-current', 'page')
-  }
-})
-})
-
+  document.querySelectorAll('.nav-link').forEach(link => {
+    if (link.href === window.location.href) {
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+});
 
 export default App;
