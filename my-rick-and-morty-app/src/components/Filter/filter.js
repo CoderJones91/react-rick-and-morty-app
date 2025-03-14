@@ -12,12 +12,12 @@ const Filters = ({ setPageNumber, setStatus, setGender, setSpecies }) => {
     window.location.reload(false);
   };
   return (
-    <div className="col-lg-3 col-12">
+    <div className="col-lg-3 col-12 mb-4">
       <div className="text-center fw-bold fs-4 mb-4">Filter</div>
       <div
         onClick={clear}
         style={{ cursor: "pointer" }}
-        className="text-center text-primary text-decoration-underline mb-4"
+        className="text-center text-white text-decoration-underline mb-4"
       >
         Clear Filter
       </div>

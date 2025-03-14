@@ -17,7 +17,7 @@ import Main from "./components/Main"
 function App() {
   return (
    
-    <Router>
+    <Router basename="/react-rick-and-morty-app">
       <div className="App">
         <Navbar />
         <Main />
