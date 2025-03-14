@@ -12,6 +12,8 @@ import Location from "./components/Pages/Location";
 import CardDetails from "./components/Card/cardDetails";
 import Main from "./components/Main";
 
+
+
 function App() {
   return (
     <Router>
