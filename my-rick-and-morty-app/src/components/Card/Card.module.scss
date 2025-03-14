@@ -5,11 +5,17 @@ $radius: 10px;
   text-align: center;
   padding: 0px !important;
   margin: 20px;
-  
+  height: fit-content;
+  align-content: center;
+
+
   
 }
 .content {
   padding: 5px;
+  background-color: #fff;
+  border-bottom-right-radius: $radius;
+  border-bottom-left-radius: $radius;
 }
 .img {
   border-radius: $radius $radius 0 0;
@@ -29,4 +35,11 @@ $radius: 10px;
   display: block;
   font-size: larger;
   margin-right: 5% !important;
+}
+
+@media screen and (max-width: 575px ) {
+
+.card {
+  width: auto !important;
+}
 }
