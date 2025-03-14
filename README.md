@@ -4,7 +4,7 @@
 ## Description
 
 This is a React-based web application that displays characters, individual characters, episodes, and locations from the Rick and Morty API. It is deployed using GitHub Pages.
-![image](https://github.com/user-attachments/assets/59369593-4ee0-4989-9175-20dc8c00b5fa)
+<img src="https://github.com/user-attachments/assets/59369593-4ee0-4989-9175-20dc8c00b5fa" width="250">
 
 ## 🚀 Live Demo
 [Check it out here](https://coderjones91.github.io/react-rick-and-morty-app/)
