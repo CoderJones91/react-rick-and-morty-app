@@ -1,5 +1,5 @@
 <a id="readme-top"></a>
-# React Rick & Morty App &#128513;
+# React Rick & Morty App 🚀;
 
 ## Description
 
