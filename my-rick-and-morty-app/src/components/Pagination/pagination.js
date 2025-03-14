@@ -43,7 +43,7 @@ const Pagination = ({ info, pageNumber, setPageNumber }) => {
         pageClassName="page-item"
         pageLinkClassName="page-link"
         marginPagesDisplayed={width < 576 ? 1 : 2}
-        pageRangeDisplayed={width < 576 ? 1 : 2}
+        pageRangeDisplayed={width < 576 ? 1 : 3}
         activeClassName="active btn-success"
         onPageChange={(data) => {
           setPageNumber(data.selected + 1);
