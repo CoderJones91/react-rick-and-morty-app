@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@font-face {
+  font-family: 'rick-morty';
+  src: url('./fonts/get_schwifty__a_rick_and_morty_font_by_jonizaak_dajw4u8-webfont.woff') format('woff');
+
+}
+
+.no-results {
+  margin-left: 20%;
+  font-family: 'rick-morty';
+  font-size: xx-large;
+  color: white;
+  
+}
+.bg-dark-opacity {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+a.nav-link[aria-current="page"]{
+  color: white;
+  border-bottom: 2px solid white;
+  font-weight: bold;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.ubuntu {
+  font-family: 'Get Schwifty' !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: white;
+    background-color: green;
+    border-color: #08BAE3;
+}
+.pagination > li > a:hover {
+  background-color: white;
+}
+.active>.page-link, .page-link.active {
+  background-color: green;
+}
+.pagination > li.break > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+  color: white;
+  background-color: green;
+  border-color: #08BAE3;
+}
+.pagination a {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'rick-morty';
+  font-size: 4.5em;
+  color: #08BAE3;
+  -webkit-text-stroke: 2px white;
+  
+}
+.text-center.fw-bold.fs-4.mb-4 {
+  font-family: 'rick-morty';
+  font-size: 2em !important;
+  color: green !important;
+  -webkit-text-stroke: 1px white;
+}
+
+.episodes-page {
+  background-color: black;
+   /* Dark Gray */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+span.rm-text {
+  font-family: 'rick-morty';
+  color: #08BAE3;
+  -webkit-text-stroke: 2px white;
+  font-size: 2em;
+}
+
+li.break {
+  color: white;
+}
+
+.main {
+  position: fixed;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  top: 0;
+  left: 0;
+  overflow: hidden; /* Prevents scrolling issues */
+  z-index: -1; /* Keeps background behind content */
+}
+
+.background-video,
+.background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures full coverage */
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  top: 0;
+  left: 0;
+  z-index: 1; 
+}
+
+
+
+@media screen and (max-width: 575px ) {
+
+  div#justifyCard {
+    justify-content: center;
+}
+}
+
