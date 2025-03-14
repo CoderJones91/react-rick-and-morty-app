@@ -4,6 +4,7 @@ input[type="search"] {
   border: 2px solid #0b5ed7;
   box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
   padding: 10px 15px;
+  margin-left: 6.5rem;
 
   &:focus {
     outline: green;
@@ -20,8 +21,18 @@ input[type="search"] ::-webkit-search-cancel-button:hover {
   box-shadow: 1px 3px 9px rgba($color: #000000, $alpha: 0.25);
 }
 
+
+
+@media (max-width: 768px) {
+input[type="search"] {
+  width: 75%;
+  margin: auto;
+}
+}
+
 @media (max-width: 576px) {
-  .input {
+  input[type="search"] {
     width: 80%;
+    margin: auto;
   }
 }
